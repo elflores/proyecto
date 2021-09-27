@@ -2,7 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .texto-blanco{
-    color:aliceblue
+    color:#F2F2F2;
 }
 .contenedor {width: 90%;
 max-width: 1000px;
@@ -27,15 +27,17 @@ grid-template-areas: "header header header"
     background: #fff;
     padding: 20 px;
     border-radius: 8px;
+    grid-template-rows: repeat(4, auto);
 
 
 }
 
 .contenedor .header {
-    background: #12230e;
+    background: #0D0000;
     color: #fff;
     grid-column-start: 1;
     grid-column-end: -1;
+    grid-template-rows: repeat(4, auto);
     text-align: center;
     display: flex;
     align-items: center;
@@ -45,7 +47,7 @@ grid-template-areas: "header header header"
 }
 
 .contenedor .contenido {
-    background: #12230e;
+    background: #0D0000;
     color: #fff;
     grid-column-start: 1;
     grid-column-end: -1;
@@ -58,7 +60,8 @@ grid-template-areas: "header header header"
 
 .contenedor .sidebar {
     grid-column: 3 / 4;
-    background: #faa43d;
+    background: #595959;
+    color: #fff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -67,7 +70,7 @@ grid-template-areas: "header header header"
 }
 
 .contenedor .widget-1 {
-    background: #55af8d;
+    background: #8C8C8C;
     color: #fff;
     height: 100px;
     text-align: center;
@@ -78,7 +81,7 @@ grid-template-areas: "header header header"
 
 }
 .contenedor .widget-2 {
-    background: #55a8fd;
+    background: #8C8C8C;
     color: #fff;
     height: 100px;
     text-align: center;
@@ -91,7 +94,7 @@ grid-template-areas: "header header header"
 }
 
 .contenedor .footer {
-    background: #e4fd55;
+    background: #D9D9D7;
     color: #fff;
         text-align: center;
     display: flex;
