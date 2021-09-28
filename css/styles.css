@@ -1,0 +1,86 @@
+
+
+.contact {
+  margin-block-end: 5em;
+  background: #0D0000;
+    color: #fff;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-template-rows: repeat(4, auto);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+#trucazo {
+  opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "description image";
+  }
+
+  .hero-description {
+    grid-area: description;
+  }
+
+  .hero-image {
+    grid-area: image;
+  }
+  .hero-image img {
+    inline-size: 500px;
+    margin-top: -50px;
+  }
+
+  .pre-projects-content {
+    max-inline-size: 900px;
+    margin: auto;
+  }
+
+  .project {
+    grid-template-areas: "description image";
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+  }
+  .project-cta {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  .project-cta button + button {
+    margin: 0;
+  }
+
+  .testimony {
+    margin: auto;
+    padding: 5em;
+    text-align: center;
+  }
+  .testimony-copy {
+    font-size: 2.2em;
+    line-height: 55px;
+  }
+
+  .testimony-title {
+    font-size: 1.5em;
+  }
+  .project, .testimony {
+    margin-block: 5em;
+  }
+
+  .form .tag span {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+
+
+
