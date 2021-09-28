@@ -1,0 +1,40 @@
+body{    
+    font-family: 'Lato', sans-serif;
+}
+
+.contact {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 70px;
+  grid-auto-columns: max-content;
+  grid-template-rows: min-content;
+  color: #fff;
+  padding: 20 px;;
+  border-radius: 8px;
+  grid-template-rows: repeat(3, auto);
+  align-content: space-around;
+  background: #0D0000;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}.
+.u-wrapper {
+  color: rgb(230, 21, 21);
+  padding: 20 px;;
+  border-radius: 8px;
+  background: #0D0000;
+  grid-auto-columns: minmax(4, -1);
+
+}
+.form {
+  color:#fff;
+  padding: 20 px;;
+  border-radius: 8px;
+  background: #0D0000;
+   }
