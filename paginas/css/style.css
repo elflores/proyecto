@@ -33,24 +33,26 @@ body{
 
 }
 .form {
-  color:#fff;
+  color:rgba(29, 27, 27, 0.733);
   padding: 20 px;;
   border-radius: 8px;
   background: #0D0000;
    }
 
 .iframe {
-
-  width: 90%;
-  max-width: 1000px;
-  margin: 20px auto;
+  background: rgb(17, 17, 17);
+  width: 100%;
+  max-width: 100%;
+  max-height: 200%;
+  height: 200%;
+  margin: 50px auto;
   display: grid;
-  grid-gap: 70px;
+  grid-gap: 50px;
   grid-auto-columns: max-content;
   grid-template-rows: min-content;
-  color: #fff;
-  padding: 20 px;;
-  border-radius: 8px;
+  color: rgb(228, 5, 5);
+  padding: 200 px;;
+  border-radius: 88px;
   grid-template-rows: inherit;
   align-content: space-around;
   background: #0D0000;
@@ -60,4 +62,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+  background-color: rgb(255, 60, 0);
+  transition: background-color 10s;
+  
+
+}.
